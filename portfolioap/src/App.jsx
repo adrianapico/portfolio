@@ -1,25 +1,25 @@
-import React from 'react';
-import './App.css';
-import Sidebar from './components/sidebar/Sidebar';
-import	Home from './components/home/Home';
-import About from './components/about/About';
-import Resume from './components/resume/Resume';
-import Projects from './components/projects/Projects';
-import Contact from './components/contact/Contact';
-
+import React from "react";
+import "./App.css";
+import Sidebar from "./components/sidebar/Sidebar";
+import	Home from "./components/home/Home";
+import About from "./components/about/About";
+import Resume from "./components/resume/Resume";
+import Contact from "./components/contact/Contact";
+import './index.css'
+import Portfolio from "./components/portfolio/Portfolio";
 const App = ()=> {
   return (
     <>
-      <Sidebar />
+      <Sidebar/>
       <main className='main'>
           <Home />
           <About />
           <Resume />
-          <Projects />
+          <Portfolio />
           <Contact />
       </main>
     </>
-  )
+  );
 }
 
 export default App
