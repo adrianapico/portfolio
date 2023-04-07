@@ -108,7 +108,7 @@
         justify-content: center;
         row-gap: 1.875rem;
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .about__data::before {
