@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import Me from "../../assets/fotoAdrianaPico.png"
+import DownloadResume from "../../assets/Resume-Adriana-Smith-Pico-Cuadros.pdf"
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
             <p className='about__description'>
               Hey, everyone! I'm Adriana, I'm Industrial Engineer and Junior Full Stack Web Developer, I possess a strong passion for backend and data-driven development. While I am still in the early stages of my career, I am committed to learning and continuously improving my skills to deliver top-quality solutions for any project. I pride myself on my ability to work well in a team, achieving common goals and tackling new challenges with enthusiasm. I am excited to contribute my skills to any project and to learn from my more experienced colleagues in the process.
             </p>
-            <a href='' className='btn'>Download Resume</a>
+            <a  href={DownloadResume} className='btn' >Download Resume</a>
           </div>
 
           <div className='about__skills grid'>
